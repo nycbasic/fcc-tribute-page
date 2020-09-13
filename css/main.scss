@@ -2,24 +2,46 @@ html,
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333333;
 }
 
 #main {
-    background: url(../images/steve-jobs.jpg) no-repeat center fixed;
+    background: url(../images/steve-jobs.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    margin-top: 0;
+    width: 75vw;
+    margin: auto;
     #title {
         color: white;
         width: 30vh;
         position: relative;
-        top: 10vh;
+        width: 40vw;
+        top: 30vh;        
+        text-align: center;
+
+        #img-div {
+            img {
+                height: 200px;
+            }
+        }
+
         h5 {
             margin: 0;
-            font-weight: 300;
+            font-weight: 300; 
+            font-size: 82px;
+        }
+        p {
+            font-size: 25px;
+            font-weight: 200;            
+            font-style: italic;
+            width: 55%;
+            margin: auto;
+        }
+        p:nth-child(4) {
+            font-style: normal;
         }
 
     }
@@ -28,6 +50,14 @@ body {
 #tribute-info {
     background: #f0f0f2;
     height: 95vh;
+    width: 75vw;
+    margin: auto;
+    h1 {
+        margin: 0;
+    }
+    hr {
+        width: 30%;
+    }
 }
 #footer {
     height: 5vh;
