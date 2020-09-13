@@ -1,0 +1,27 @@
+@media screen and (max-width: 411px) {
+    #main {
+        background: url(../images/apple-steve-jobs.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    #title {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+    }
+
+    #title h5 {
+        font-size: 5vh
+    }
+
+    #title p {
+        font-weight: 300;
+        font-size: 18px
+    }
+
+
+    
+}
