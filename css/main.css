@@ -76,6 +76,12 @@ body {
   width: 30%;
 }
 
+#tribute-info #box-1 img {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+}
+
 #tribute-info #box-1 .timeline {
   position: absolute;
   height: 100vh;
@@ -84,21 +90,14 @@ body {
   scroll-behavior: smooth;
 }
 
-#tribute-info #box-1 .timeline img {
-  position: absolute;
-  width: 100%;
-}
-
 #tribute-info #box-1 .timeline .time-content {
   height: 100vh;
   width: 100%;
   text-align: center;
-  z-index: 1;
-  pointer-events: auto;
 }
 
 #tribute-info #box-1 .timeline #time-title {
-  padding: 220px 0;
+  padding: 290px 0;
 }
 
 #tribute-info #box-1 .timeline #time-title h1 {
@@ -107,8 +106,8 @@ body {
 }
 
 #tribute-info #box-1 .timeline #time-title img {
-  width: 300px;
-  margin: auto;
+  width: 150px;
+  position: static;
 }
 
 #tribute-info #box-1 .timeline #time-title a {
@@ -118,25 +117,25 @@ body {
   color: black;
 }
 
-#tribute-info #box-1 .timeline #first-time-content {
+#tribute-info #box-1 .timeline .timeline-content {
   text-align: center;
-  padding: 200px 150px;
+  padding: 290px 160px;
 }
 
-#tribute-info #box-1 .timeline #first-time-content h1 {
+#tribute-info #box-1 .timeline .timeline-content h1 {
   font-size: 40px;
 }
 
-#tribute-info #box-1 .timeline #first-time-content p {
+#tribute-info #box-1 .timeline .timeline-content p {
   font-size: 24px;
   font-weight: 300;
 }
 
-#tribute-info #box-1 .timeline #first-time-content span {
+#tribute-info #box-1 .timeline .timeline-content span {
   margin: 0 40px;
 }
 
-#tribute-info #box-1 .timeline #first-time-content span a {
+#tribute-info #box-1 .timeline .timeline-content span a {
   text-decoration: underline;
   color: black;
   font-weight: 400;
