@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -26,10 +26,10 @@ body {
   height: 200px;
 }
 
-#main #title h5 {
+#main #title h1 {
   margin: 0;
   font-weight: 300;
-  font-size: 82px;
+  font-size: 3.5em;
 }
 
 #main #title p {
@@ -69,7 +69,7 @@ body {
 #tribute-info #box-1 {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  margin-bottom: 0.8%;
+  margin-bottom: 1.3%;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -88,6 +88,7 @@ body {
   width: 100%;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  border: 1px dashed black;
 }
 
 #tribute-info #box-1 .timeline .time-content {
@@ -97,7 +98,7 @@ body {
 }
 
 #tribute-info #box-1 .timeline #time-title {
-  padding: 290px 0;
+  padding: 40% 0;
 }
 
 #tribute-info #box-1 .timeline #time-title h1 {
@@ -119,7 +120,7 @@ body {
 
 #tribute-info #box-1 .timeline .timeline-content {
   text-align: center;
-  padding: 290px 160px;
+  padding: 35% 25%;
 }
 
 #tribute-info #box-1 .timeline .timeline-content h1 {
@@ -127,8 +128,8 @@ body {
 }
 
 #tribute-info #box-1 .timeline .timeline-content p {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 1em;
+  font-weight: 200;
 }
 
 #tribute-info #box-1 .timeline .timeline-content span {
@@ -139,11 +140,6 @@ body {
   text-decoration: underline;
   color: black;
   font-weight: 400;
-}
-
-#tribute-info #box-1 #first-time {
-  height: 100vh;
-  background-attachment: fixed;
 }
 
 #tribute-info #box-2 {

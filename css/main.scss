@@ -15,6 +15,7 @@ body {
   height: 100vh;
   width: 80vw;
   margin: auto;
+
   #title {
     color: white;
     width: 30vh;
@@ -22,17 +23,19 @@ body {
     width: 40vw;
     top: 30vh;
     text-align: center;
+
     #img-div {
       img {
         height: 200px;
       }
     }
 
-    h5 {
+    h1 {
       margin: 0;
       font-weight: 300;
-      font-size: 82px;
+      font-size: 3.5em;
     }
+
     p {
       font-size: 25px;
       font-weight: 200;
@@ -40,6 +43,7 @@ body {
       width: 55%;
       margin: auto;
     }
+
     p:nth-child(4) {
       font-style: normal;
     }
@@ -54,45 +58,54 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   top: 30px;
+
   .box {
     margin: 0.5% 0.3%;
     background-color: #ffff;
     width: 22.6%;
   }
+
   #box-1 {
     flex-basis: 100%;
-    margin-bottom: 0.8%;
+    margin-bottom: 1.3%;
     height: 100vh;
     overflow: hidden;
     position: relative;
     width: 30%;
+
     img {
       position: absolute;
       width: 100%;
       top: 100px;
     }
+
     .timeline {
       position: absolute;
       height: 100vh;
       width: 100%;
       overflow-y: hidden;
       scroll-behavior: smooth;
-     
+      border: 1px dashed black;
+
       .time-content {
         height: 100vh;
         width: 100%;
         text-align: center;
       }
+
       #time-title {
-        padding: 290px 0;
+        padding: 40% 0;
+
         h1 {
           font-weight: 300;
           font-size: 40px;
         }
+
         img {
           width: 150px;
           position: static;
         }
+
         a {
           text-decoration: none;
           font-size: 24px;
@@ -100,18 +113,23 @@ body {
           color: black;
         }
       }
+
       .timeline-content {
         text-align: center;
-        padding: 290px 160px;
+        padding: 35% 25%;
+
         h1 {
           font-size: 40px;
         }
+
         p {
-          font-size: 24px;
-          font-weight: 300;
+          font-size: 1em;
+          font-weight: 200;
         }
+
         span {
           margin: 0 40px;
+
           a {
             text-decoration: underline;
             color: black;
@@ -120,30 +138,38 @@ body {
         }
       }
     }
-    #first-time {
-      height: 100vh;
-      background-attachment: fixed;
-    }
+
+    // #timeline-1 {
+    //   height: 100vh;
+    //   background-attachment: fixed;
+    // }
   }
+
   #box-2 {
     flex-basis: 47.5%;
   }
+
   #box-3 {
     flex-basis: 47.5%;
   }
+
   #box-4 {
     flex-basis: 47.5%;
   }
+
   #box-5 {
     flex-basis: 47.5%;
   }
+
   #box-6 {
     flex-basis: 47.5%;
   }
+
   #box-7 {
     flex-basis: 47.5%;
   }
 }
+
 #footer {
   height: 5vh;
 }
